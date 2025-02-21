@@ -40,12 +40,12 @@
     - name: remove the jupiter-main directory
       file: 
         path: /var/www/html/jupiter-main
-        state: ubsent
+        state: absent
 
     - name: remove the jupiter-main.zip folder
       file: 
         path: /var/www/html/jupiter-main.zip
-        state: ubsent
+        state: absent
 
     - name: start apache server, if not started
       ansible.builtin.service:
