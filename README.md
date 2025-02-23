@@ -1,4 +1,4 @@
-# AWS Web Hosting Infrastructure with Ansible
+# AWS Web Hosting with Ansible
 
 ## Overview
 This project sets up a highly available and secure web hosting environment on AWS. The architecture consists of a Virtual Private Cloud (VPC) with public and private subnets across two Availability Zones (AZs). It leverages an Application Load Balancer (ALB) for traffic distribution and SSL/TLS encryption to secure traffic in transit.
