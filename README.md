@@ -10,7 +10,7 @@ This project sets up a highly available and secure web hosting environment on AW
                           |
                           ▼
                  +-------------------+
-                 | Route 53 (DNS)    |
+                 |   Route 53 (DNS)  |
                  +-------------------+
                           |
                           ▼
